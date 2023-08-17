@@ -1,6 +1,10 @@
 ## CNC_5axis
 <br>
 
+Packages:<br>
+<br>
+pyserial
+
 Three functions explainations: <br>
 <br>
 
