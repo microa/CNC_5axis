@@ -194,10 +194,11 @@ def main():
 
 
 
-    #Move_Certain_Distance("COM48", "x", 20)
-    #Moving("COM48", "x", "forward", 2)
+    Move_Certain_Distance("COM48", "x", 20)
+    Moving("COM48", "x", "forward", 2)
     Speed("COM48", "xyz")
 
+    
     print("Press ENTER...")
     input()
 
