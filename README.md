@@ -2,8 +2,7 @@
 <br>
 
 Packages:<br>
-<br>
-pyserial
+* pyserial
 
 Three functions explainations: <br>
 <br>
