@@ -147,7 +147,7 @@ def Move_Certain_Distance(COMx, axis, distance_mm):
         readData(COMx, 0x01, 0x05, 0x00, 0x08, 0xFF, 0x00)
         print("B-axis start moving...")
 
-def Moving(COMx, axis, Direction, time_s):
+def Move_Certain_Time(COMx, axis, Direction, time_s):
 
     Forward     =   [0x0B, 0x0D, 0x0F, 0x11, 0x13]
     Backward    =   [0x0C, 0x0E, 0x10, 0x12, 0x14]
@@ -175,7 +175,7 @@ def Moving(COMx, axis, Direction, time_s):
         time.sleep(time_s)
         readData(0x01, 0x05, 0x00, 0x0B, 0x17, 0x70)    # x-axis stop
 
-def Speed(COMx, axises):
+def Set_Move_Speed(COMx, axises):
 
     if axises == "xyz":
         xyz_speed = int(input("x,y,z speed setting(input one number):"))
@@ -195,8 +195,8 @@ def main():
 
 
     Move_Certain_Distance("COM48", "x", 20)
-    Moving("COM48", "x", "forward", 2)
-    Speed("COM48", "xyz")
+    Move_Certain_Time("COM48", "x", "forward", 2)
+    Set_Move_Speed("COM48", "xyz")
 
     
     print("Press ENTER...")
