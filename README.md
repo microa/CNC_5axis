@@ -28,7 +28,7 @@ Three functions explainations: <br>
 You can select "a" or "b" in addition to "x", "y", and "z".
 
 <br><br><br>
-## CNC_5axis 中文版
+## CNC_5axis （中文版）
 <br>
 
 需要安装的python包:<br>
