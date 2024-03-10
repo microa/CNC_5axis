@@ -8,9 +8,9 @@
 
 <br>Three functions explainations: 
 
-<br>* Move_Certain_Distance("COM48", "x", 20) 
-<br>  &nbsp; UART port: COM48 
-<br>  &nbsp; Input "x","y", or "z" to control X-axis, Y-axis, or Z-axis respectively. 
+<br>* Move_Certain_Distance("COM48", "x", 20) <br>  
+&nbsp; UART port: COM48 <br>  
+&nbsp; Input "x","y", or "z" to control X-axis, Y-axis, or Z-axis respectively. 
 <br>  &nbsp; The number 20 represents relative distance from the origin.
 
 <br>* Move_Certain_Time("COM48", "x", "forward", 2) 
