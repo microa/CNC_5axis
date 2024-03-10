@@ -1,15 +1,14 @@
 ## CNC_5axis (English Version)
 <br>
 
-Packages needed:
+<br>Packages needed:
 <br>* pyserial
   <br>-> pip install pyserial
   <br>-> https://pypi.org/project/pyserial/
 
-Three functions explainations: 
-<br>
+<br>Three functions explainations: 
 
-* Move_Certain_Distance("COM48", "x", 20) 
+<br>* Move_Certain_Distance("COM48", "x", 20) 
 <br>&nbsp; UART port: COM48 
 <br>&nbsp; Input "x","y", or "z" to control X-axis, Y-axis, or Z-axis respectively. 
 <br>&nbsp; The number 20 represents relative distance from the origin.
@@ -34,10 +33,9 @@ Three functions explainations:
   <br>-> pip install pyserial
   <br>-> https://pypi.org/project/pyserial/
 
-已开发三个主要功能： 
-<br>
+<br>已开发三个主要功能： 
 
-* Move_Certain_Distance("COM48", "x", 20) 
+<br>* Move_Certain_Distance("COM48", "x", 20) 
 <br>&nbsp; 串口号： COM48 
 <br>&nbsp; 输入 "x","y", or "z" 以分别选中 X-轴, Y-轴, or Z-轴 
 <br>&nbsp; "20"表示移动距离原点的相对距离
